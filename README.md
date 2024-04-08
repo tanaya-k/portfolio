@@ -1,8 +1,19 @@
-# React + Vite
+# portfolio
+ Website displaying my projects and skills
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Goals and objectives:
 
-Currently, two official plugins are available:
+- Showcase projects, display skills by utilizing them in the website and listing acquired skills
+- Target audience: employers, fellow university students and other devs
+- Professional and creative, adding spice and personality into my resume
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Content:
+
+- About me page
+- Projects page
+- Resume
+- Socials
+
+## Design and Layout:
+
+Currently creating Figma prototype, exploring creative styles like a space theme or a more spiral mathematical theme
