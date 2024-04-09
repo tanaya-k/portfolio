@@ -37,8 +37,16 @@
   padding: 2em;
 }
 
+.home.intro {
+  font-size: 180px;
+  font-family: 'jsMath-cmmi10', sans-serif;
+  font-style: italic;
+  color: #31E981;
+  margin-top: 0;
+}
+
 .read-the-docs {
-  font-family: 'jsMath-cmr10', sans-serif;
+  font-family: 'jsMath-cmmi10', sans-serif;
   font-size: 180px;
   /* letter-spacing: 3px; */
   color: #888;

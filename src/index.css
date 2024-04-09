@@ -1,33 +1,16 @@
 :root {
   font-family: "Anonymous Pro", monospace;
-  font-style: italic;
-
   color: #31E981;
   background-color: #00120B;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.title {
-  font-size: 76px;
-  color: #31E981;
-}
-
 .body {
-  font-size: 24;
+  font-size: 24px;
   color: #6B818C;
-}
-
-.home.intro {
-  font-size: 104px;
-  color: #31E981;
-}
-
-.home.name {
-  font-family: 'jsMath-cmr10', sans-serif;
 }
 
 a {
@@ -48,8 +31,17 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 76px;
+  color: #31E981;
+  margin-bottom: 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 10px;
+  font-size: 24px;
 }
 
 button {
