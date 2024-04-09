@@ -38,5 +38,8 @@
 }
 
 .read-the-docs {
+  font-family: 'jsMath-cmr10', sans-serif;
+  font-size: 180px;
+  /* letter-spacing: 3px; */
   color: #888;
 }
