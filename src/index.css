@@ -1,7 +1,10 @@
 :root {
   font-family: "Anonymous Pro", monospace;
-  color: #31E981;
-  background-color: #00120B;
+  background: rgb(0,18,11);
+  background: linear-gradient(180deg, rgba(0,18,11,1) 0%, rgba(53,96,90,1) 100%);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -37,6 +40,7 @@ h1 {
 }
 
 footer {
+  color: #31E981;
   position: absolute;
   bottom: 0;
   right: 0;
