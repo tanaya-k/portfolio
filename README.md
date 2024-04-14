@@ -16,4 +16,8 @@
 
 ## Design and Layout:
 
-Currently creating Figma prototype, exploring creative styles like a space theme or a more spiral mathematical theme
+Created [Figma Prototype](https://www.figma.com/file/dXbiiQHbz4sv09GfnHPahF/Untitled?type=design&node-id=0%3A1&mode=design&t=xsJqIDk8pXS7gvz7-1) with home page and separate pages corresponding to content
+
+## Currently working on:
+
+ Coding a functional homepage with a nav bar that appears after scroll
