@@ -20,4 +20,4 @@ Created [Figma Prototype](https://www.figma.com/file/dXbiiQHbz4sv09GfnHPahF/Unti
 
 ## Currently working on:
 
- Coding a functional homepage with a nav bar that appears after scroll
+Creating components for each page of my portfolio
