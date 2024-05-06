@@ -1,31 +1,26 @@
+import React from "react";
 import './App.css'
-import * as ReactDOM from "react-dom/client";
-import {
-  createBrowserRouter,
-  RouterProvider
-} from "react-router-dom";
-import Home from './components/home/home';
-import ErrorPage from './components/error_page/error_page';
-import AboutMe from './components/about_me/about_me';
-// import { Navbar } from './components/navbar/navbar'
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home/>
-  },
-  {
-    path: "/about-me",
-    element: <AboutMe/>,
-    errorElement: <ErrorPage/>
-  },
-]);
+// function OnScroll() {
+//   // navigate to about me page on scroll
+// }
 
-
-function App() {
-  ReactDOM.createRoot(document.getElementById("root")).render(
-    <RouterProvider router={router}/>
-  );
+export default function Home() {
+    return (
+    <>
+    <style>
+      @import url('https://fonts.cdnfonts.com/css/jsmath-cmmi10');
+    </style>
+    {/* <Navbar /> */}
+    <div>
+      <h1>hi, i'm</h1>
+      <h1 className='home intro'>
+        Tanaya
+      </h1>
+    </div>
+    <footer>
+      Swipe to learn more...
+    </footer>
+    </>
+    )
 }
-
-export default App
