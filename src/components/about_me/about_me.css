@@ -1,0 +1,29 @@
+.about.me {
+    text-align: left;
+    position: absolute;
+    top: 0px;
+    left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+p {
+    font-size: 24px;
+    color: #6B818C;
+    text-align: left;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+b {
+    color: #31E981;
+}
+
+.projects.display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+}
