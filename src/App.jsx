@@ -5,7 +5,7 @@ import './App.css'
 //   // navigate to about me page on scroll
 // }
 
-export default function Home() {
+export default function App() {
     return (
     <>
     <style>
