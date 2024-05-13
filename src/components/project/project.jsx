@@ -5,6 +5,7 @@ export default function Project({title, description}) {
     return (
             <div className="project info">
                 <h2><i>{title}</i></h2>
+                {/* Change to skills display */}
                 <p className="project description">{description}</p>
             </div>
             )
