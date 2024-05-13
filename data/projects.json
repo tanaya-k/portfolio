@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Project 1",
+        "description": "Achieved X as measured by Y to implement Z",
+        "tag": "Hackathon",
+        "skills": ["React", "MongoDB", "Python"],
+        "devpost_link": "",
+        "github_link": ""
+    }, 
+    {
+        "title": "Project 2",
+        "description": "Achieved X as measured by Y to implement Z",
+        "tag": "Personal",
+        "skills": ["React", "MongoDB", "Python"],
+        "github_link": ""
+    }, 
+    {
+        "title": "Project 3",
+        "description": "Achieved X as measured by Y to implement Z",
+        "tag": "Academic",
+        "skills": ["React", "MongoDB", "Python"],
+        "github_link": ""
+    }, 
+    {
+        "title": "Project 4",
+        "description": "Achieved X as measured by Y to implement Z",
+        "tag": "Hackathon",
+        "skills": ["React", "MongoDB", "Python"],
+        "devpost_link": "",
+        "github_link": ""
+    }
+]
