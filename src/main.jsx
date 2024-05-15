@@ -23,7 +23,7 @@ const router = createBrowserRouter([
   },
   {
     // Change the link to have the project name in the link
-    path: "/project",
+    path: "/project/:project",
     element: <Project_Page/>,
     errorElement: <ErrorPage/>
   }

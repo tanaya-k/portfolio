@@ -1,17 +1,20 @@
 import React from "react";
 import "./project_page.css";
 import Navbar from "../navbar/navbar";
+import { useLocation } from "react-router-dom";
 
 export default function Project_Page() {
+    const location = useLocation()
+    const {from} = location.state
+
     return (
         <div>
             {/* <Navbar/> */}
             <div className="title">
-                <h1>Project Name</h1>
-                {/* Fix alignment issue - flexboxing title and project tag */}
-                <h3>Hackathon Project</h3>
+                <h1>{from.title}</h1>
+                <h3>{from.tag} Project</h3>
             </div>
-            <p>Description of the project</p>
+            <p>{from.description}</p>
         </div>
     )
 }
