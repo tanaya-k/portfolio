@@ -1,31 +1,32 @@
 [
     {
-        "title": "Project 1",
-        "description": "Achieved X as measured by Y to implement Z",
+        "title": "Echoes of the Past",
+        "description": "My first hackathon, desktop app displaying heritage sites around Vancouver to encourage exploration post-pandemic",
         "tag": "Hackathon",
-        "skills": ["React", "MongoDB", "Python"],
+        "skills": ["React", "HTML/CSS", "Figma", "Git", "Javascript", "VSCode"],
         "devpost_link": "",
         "github_link": ""
     }, 
     {
-        "title": "Project 2",
-        "description": "Achieved X as measured by Y to implement Z",
-        "tag": "Personal",
-        "skills": ["React", "MongoDB", "Python"],
-        "github_link": ""
-    }, 
-    {
-        "title": "Project 3",
-        "description": "Achieved X as measured by Y to implement Z",
-        "tag": "Academic",
-        "skills": ["React", "MongoDB", "Python"],
-        "github_link": ""
-    }, 
-    {
-        "title": "Project 4",
-        "description": "Achieved X as measured by Y to implement Z",
+        "title": "Pantry Planner",
+        "description": "Web app aimed to reduce food waste by suggesting recipes based on available ingredients",
         "tag": "Hackathon",
-        "skills": ["React", "MongoDB", "Python"],
+        "skills": ["Flask", "React", "MongoDB", "Git", "Python", "Javascript", "VSCode"],
+        "devpost_link": "",
+        "github_link": ""
+    }, 
+    {
+        "title": "D&D Spellbook",
+        "description": "Web app that stores and displays spells used by various spellcasters in the table-top roleplaying game, Dungeons and Dragons",
+        "tag": "Personal",
+        "skills": ["Django", "React", "SQLite", "Git", "Python", "Javascript", "VSCode"],
+        "github_link": ""
+    }, 
+    {
+        "title": "Movie Watchlist",
+        "description": "Desktop app listing and saving shows and movies a user has watched in the past and present",
+        "tag": "Academic",
+        "skills": ["Java", "Swing", "Git", "IntelliJ"],
         "devpost_link": "",
         "github_link": ""
     }
