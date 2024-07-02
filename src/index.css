@@ -1,6 +1,5 @@
 :root {
   font-family: "Anonymous Pro", monospace;
-  background: rgb(0,18,11);
   background: linear-gradient(180deg, rgba(0,18,11,1) 0%, rgba(53,96,90,1) 100%);
   box-sizing: border-box;
   margin: 0;
