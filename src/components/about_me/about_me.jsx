@@ -17,9 +17,10 @@ export default function AboutMe() {
                 research</b> and <b>mathematics</b>.
         </p>
         <div className="projects display">
+            {/* Change formatting for JS code below */}
             {projects.map((project, id) => {
             return (<Link key={id} to={`/project/${project.title}`} state={{from: project}}>
-                        <Project_Button title={project.title} description={project.description} skills={project.skills}/>
+                        <ProjectButton title={project.title} description={project.description} skills={project.skills}/>
                     </Link>)})}
         </div>
     </div>
