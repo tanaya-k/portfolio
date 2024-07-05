@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./about_me.css";
-import Project_Button from "../project_button/project_button";
+import ProjectButton from "../project_button/project_button";
 import Navbar from "../navbar/navbar";
 import projects from "../../../data/projects.json";
 
