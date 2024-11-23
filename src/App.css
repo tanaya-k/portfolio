@@ -1,0 +1,34 @@
+/* @import url(); */
+
+:root {
+  --black-color: #00120B;
+  --green-gray-color: #35605A;
+  --gray-color: #6B818C;
+  --light-gray-color: #D8E4FF;
+  --green-accent-color: #31E981;
+  --background-grad: linear-gradient(180deg, rgba(0,18,11,1) 0%, rgba(53,96,90,1) 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Anonymous Pro", monospace;
+  font-style: italic;
+}
+
+html {
+  /* TODO: font-size change in future */
+  /* font-size: 62.5%; */
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  color: #31E981;
+}
+
+#root {
+  height: 100%;
+  background: var(--background-grad);
+}

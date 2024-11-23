@@ -1,0 +1,19 @@
+.about.container {
+    display: flex;
+}
+
+
+.about.description.container {
+    padding: 60px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+
+.p.desc {
+    padding: 20px 0;
+    color: var(--light-gray-color);
+    font-size: 25px;
+    font-weight: 0;
+}

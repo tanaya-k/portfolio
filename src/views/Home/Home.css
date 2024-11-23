@@ -1,0 +1,23 @@
+.home.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 98%;
+}
+
+.home.title.greeting {
+    font-size: 60px;
+}
+
+.home.title.name {
+    margin-top: -600px;
+    font-family: 'jsMath-cmmi10', sans-serif;
+    font-size: 180px;
+    font-weight: lighter;
+}
+
+.home.link {
+    color: var(--green-accent-color);
+    font-size: 25px;
+}
