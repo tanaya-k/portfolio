@@ -1,17 +1,17 @@
-
-
-function handleClick() {
-    // e.preventDefault();
-    alert('Should navigate to the about me page');
-} 
+import { Link } from 'react-router-dom';
+import './Home.css';
 
 
 function Home() {
     return (
         <>
-        <h1>Hi</h1>
-        <h2>i'm tanya</h2>
-        <footer onClick={handleClick}>Click to see more...</footer>
+        <div className='home title'>
+            <h1 className='home title greeting'>Hi, i'm</h1>
+            <h2 className='home title name'>Tanaya</h2>
+            <footer>
+                <Link className='home link' to='/about-me'>Click to see more...</Link>
+            </footer>
+        </div>
         </>
     );
 }
