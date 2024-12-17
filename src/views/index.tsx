@@ -2,9 +2,11 @@
 import Home from "./Home/Home";
 import AboutMe from "./AboutMe/AboutMe";
 import Contact from "./Contact/Contact";
-import Project from "./Project/Project";
+import Projects from "./Projects/Projects";
+import Resume from "./Resume/Resume";
 
 export { Home };
 export { AboutMe };
 export { Contact };
-export { Project };
+export { Projects };
+export { Resume };

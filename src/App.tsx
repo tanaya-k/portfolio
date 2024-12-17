@@ -1,6 +1,6 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom';
-import { AboutMe, Home, Contact } from './views';
+import { AboutMe, Home, Contact, Projects, Resume } from './views';
 
 
 function App() {
@@ -9,8 +9,9 @@ function App() {
         <Routes>
             <Route index path='/' element={<Home />} />
             <Route index path='/about-me' element={<AboutMe />} />
-            {/* <Route path='/' element={<Project />} /> */}
+            <Route path='/projects' element={<Projects />} />
             <Route index path='/contact' element={<Contact />} />
+            <Route index path='/resume' element={<Resume />} />
         </Routes>
         </>
     );
