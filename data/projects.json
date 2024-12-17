@@ -1,33 +1,54 @@
 [
     {
+        "title": "RouteRecs",
+        "description": "While I was on a roadtrip from Vancouver to Joffre Lakes, I found it inconvenient to find gas stations or attractions en route. I worked on creating a mobile app that suggests points of interest from point A to B without having to cancel the route.",
+        "tag": "Personal",
+        "skills": ["TypeScript", "React Native", "Git", "VSCode"],
+        "date": "Jul 2024 - Present",
+        "devpost_link": "",
+        "github_link": ""
+    }, 
+    {
+        "title": "Portfolio",
+        "description": "I designed and built a website to list my credentials and projects in an aesthetic frame. I sculpted a design based on research, UI/UX design principles and my personal tastes on Figma. Then I transferred that design to React and CSS, making sure to evolve the design based on the necessary configurations in the code.",
+        "tag": "Personal",
+        "skills": ["React", "CSS", "Figma", "Git", "TypeScript", "VSCode"],
+        "date": "May 2024 - Nov 2024",
+        "devpost_link": "",
+        "github_link": ""
+    },
+    {
         "title": "Echoes of the Past",
-        "description": "My first hackathon, desktop app displaying heritage sites around Vancouver to encourage exploration post-pandemic",
+        "description": "In 2023, I created a desktop application during my first hackathon called NWHacks. Our group of four team members developed a desktop app displaying heritage sites around Vancouver to encourage people to go sightseeing in their local area post-pandemic. This was also my first foray into React development.",
         "tag": "Hackathon",
-        "skills": ["React", "HTML/CSS", "Figma", "Git", "Javascript", "VSCode"],
+        "skills": ["React", "HTML", "CSS", "Figma", "Git", "JavaScript", "VSCode"],
+        "date": "",
         "devpost_link": "",
         "github_link": ""
     }, 
     {
         "title": "Pantry Planner",
-        "description": "Web app aimed to reduce food waste by suggesting recipes based on available ingredients",
+        "description": "A hackathon project of a website aimed to reduce food waste. The application suggests recipes based on the user's available ingredients. Our tech stack consists of a React frontend and Flask backend. User accounts and recipes are stored on a MongoDB database and connected with RESTful APIs.",
         "tag": "Hackathon",
-        "skills": ["Flask", "React", "MongoDB", "Git", "Python", "Javascript", "VSCode"],
+        "skills": ["Flask", "React", "MongoDB", "Git", "Python", "JavaScript", "VSCode"],
+        "date": "",
         "devpost_link": "",
         "github_link": ""
     }, 
     {
         "title": "D&D Spellbook",
-        "description": "Web app that stores and displays spells used by various spellcasters in the table-top roleplaying game, Dungeons and Dragons",
+        "description": "I have a passion for Dungeons & Dragons and I noticed that the spellcasters in my campaign found it difficult to keep track of their spells. For this reason, I created a web app that stores and displays spells for each character. I serialized JSON spell data into an SQLite database using efficient queries, making sure to exclude extraneous sections.",
         "tag": "Personal",
-        "skills": ["Django", "React", "SQLite", "Git", "Python", "Javascript", "VSCode"],
+        "skills": ["Django", "React", "SQLite", "Git", "Python", "JavaScript", "VSCode"],
+        "date": "Jun 2023 - Dec 2023",
         "github_link": ""
     }, 
     {
         "title": "Movie Watchlist",
         "description": "Desktop app listing and saving shows and movies a user has watched in the past and present",
         "tag": "Academic",
-        "skills": ["Java", "Swing", "Git", "IntelliJ"],
-        "devpost_link": "",
+        "skills": ["Java", "Java Swing", "Git", "IntelliJ"],
+        "date": "Jan 2022 - Apr 2022",
         "github_link": ""
     }
 ]
