@@ -3,21 +3,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 98%;
+    height: 95vh;
 }
 
 .home.title.greeting {
     font-size: 60px;
+    flex: 0;
 }
 
 .home.title.name {
-    margin-top: -600px;
     font-family: 'jsMath-cmmi10', sans-serif;
     font-size: 180px;
     font-weight: lighter;
+    flex: 0;
 }
 
 .home.link {
     color: var(--green-accent-color);
     font-size: 25px;
+}
+
+footer {
+    text-align: center;
 }
