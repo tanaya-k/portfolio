@@ -12,13 +12,13 @@
 - About me page
 - Projects page
 - Resume
-- Socials
 
 ## Design and Layout:
 
 Created [Figma Prototype](https://www.figma.com/file/dXbiiQHbz4sv09GfnHPahF/Untitled?type=design&node-id=0%3A1&mode=design&t=xsJqIDk8pXS7gvz7-1) with home page and separate pages corresponding to content
 
 ## Currently working on:
-- coding frontend of the components based on the figma prototype
-- adding project data in JSON format
-- using React Router to set up linked routes and paths between pages
+- deploying portfolio with GitHub Pages
+- adding functionality into contact form
+- sprucing up desgin for extra WOW factor
+    - three.js?? 
