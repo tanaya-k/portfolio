@@ -7,11 +7,13 @@
   --light-gray-color: #D8E4FF;
   --green-accent-color: #31E981;
   --background-grad: linear-gradient(180deg, rgba(0,18,11,1) 0%, rgba(53,96,90,1) 100%);
+  --alt-background-grad: linear-gradient(180deg, rgba(216,228,255,1) 33%, rgba(49,233,129,1) 100%);
 }
 
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
   box-sizing: border-box;
   font-family: "Anonymous Pro", monospace;
   font-style: italic;
@@ -24,11 +26,15 @@ html {
 }
 
 body {
-  height: 100%;
+  height: 100vh;
   color: #31E981;
 }
 
+h1 {
+  font-size: 50px;
+}
+
 #root {
-  height: 100%;
-  background: var(--background-grad);
+  min-height: 100vh;
+  background: var(--black-color);
 }
